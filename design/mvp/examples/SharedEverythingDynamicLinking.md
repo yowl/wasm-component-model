@@ -4,8 +4,8 @@
 out of multiple Core WebAssembly modules so that common modules can be shared
 with other components. This provides an alternative to *static linking* which
 forces common code to be copied into each component. This type of linking
-should be able to leverage of existing support for native dynamic linking (of
-`.dll`s or `.so`s) which a single shared linear memory (hence
+should be able to leverage off existing support for native dynamic linking (of
+`.dll`s or `.so`s) with a single shared linear memory (hence
 *shared-everything* dynamic linking).
 
 Shared-everything dynamic linking should be *complementary* to the
